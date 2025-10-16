@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fingerprint Tablet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container" class="hidden">
+    <div id="tablet">
+      <div id="header">
+        <div id="badge">POLICE</div>
+        <div id="title">Fingerprint Scanner</div>
+      </div>
+
+      <div id="scanner-area">
+        <div id="scan-screen">
+          <div id="fingerprint-anim">
+            <div class="ring"></div>
+            <div class="ring inner"></div>
+            <div id="fp-icon"></div>
+          </div>
+          <div id="status">Ready</div>
+        </div>
+      </div>
+
+      <div id="result" class="hidden">
+        <div class="card">
+          <div class="line"><span class="label">Name:</span> <span id="res-name"></span></div>
+          <div class="line"><span class="label">DOB:</span> <span id="res-dob"></span></div>
+          <div class="line"><span class="label">ID:</span> <span id="res-id"></span></div>
+          <div id="matchText"></div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <button id="closeBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="scan-sound" src="sounds/scan.mp3"></audio>
+  <audio id="match-sound" src="sounds/match.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
