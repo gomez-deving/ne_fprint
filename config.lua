@@ -8,10 +8,10 @@ Config = {}
 Config.Framework = "auto"
 
 --Prop settings
-Config.PropModel = "prop_police_phone" -- can still change model if needed
+Config.PropModel = "prop_police_phone" -- can change model if needed
 
 -- Discord webhook for fingerprint logs
-Config.WebhookURL = "https://discord.com/api/webhooks/1424493328979722320/_zKlqE9CGhbscybkXUVEnq9aHY1YZjhbudPPA97Vmw23OOXvH1AkdvO8a472-j1usVWF" -- replace with your webhook
+Config.WebhookURL = "WEBHOOKHERE" -- replace with your webhook
 Config.WebhookName = "Fingerprint Scanner"
 Config.WebhookAvatar = "https://cdn.discordapp.com/attachments/1264478027585290383/1426066248407449700/FDCBFE76-C57C-4F91-B491-1B7D9E7D1A19.png?ex=68f1c830&is=68f076b0&hm=228af79c860ce70c7e534a60a372b7c88e784e8ddb5375500a3ee878419e2f1a&"
 
